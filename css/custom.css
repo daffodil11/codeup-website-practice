@@ -4,6 +4,13 @@ section {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 #hero {
     padding-top: 60px;
+}
+
+.social-link-img {
+    background: white;
+    border-radius: 50%;
+    max-width: 100px;
 }
