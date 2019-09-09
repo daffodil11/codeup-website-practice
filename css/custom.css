@@ -1,8 +1,16 @@
+body {
+    min-height: 100vh;
+}
+
 section {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+#content {
+    flex: 1 0 auto;
 }
 
 #hero {
@@ -13,4 +21,12 @@ section {
     background: white;
     border-radius: 50%;
     max-width: 100px;
+}
+
+footer.bg-dark {
+    flex-shrink: none;
+}
+
+footer ul.list-unstyled li {
+    margin-bottom: 0.4rem;
 }
