@@ -17,6 +17,10 @@ section {
     padding-top: 65px;
 }
 
+#accordion {
+    min-height: 70vh;
+}
+
 .social-link-img {
     background: white;
     border-radius: 50%;
