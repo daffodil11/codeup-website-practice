@@ -40,10 +40,14 @@
                 <p>If your question is not answered here, please get in touch with us through <a href="https://www.meetup.com/CodeUp-Sheffield/events/">Meetup</a>, <a href="https://twitter.com/CodeUpSHF">Twitter</a> or <a href="https://codeupshf-slack.herokuapp.com/">Slack</a></p>
                 <div id="accordion">
                     <div class="card">
-                        <button class="card-header btn text-left">
+                        <button
+                            class="card-header btn text-left"
+                            id="questionOne"
+                            data-toggle="collapse"
+                            data-target="#answerOne">
                             What do I need to bring?
                         </button>
-                        <div>
+                        <div id="answerOne" class="collapse" aria-labelledby="questionOne" data-parent="#accordion">
                             <div class="card-body">
                                 All you have to bring is a laptop, your enthusiasm and some coding to get on with. This can be a project, a book, or some online tutorials. If you are starting completely from scratch, don't worry - we will try to guide you towards some learning resources. Please try to install any relevant software in advance, but if you need assistance with this, we are happy to help.
                             </div>
