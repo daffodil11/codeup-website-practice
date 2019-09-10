@@ -28,7 +28,7 @@ section {
 }
 
 footer.bg-dark {
-    flex-shrink: none;
+    flex: 0 0 auto;
 }
 
 footer ul.list-unstyled li {
